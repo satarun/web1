@@ -1,0 +1,17 @@
+label{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-kerning: auto;
+    flex-direction: column-reverse;
+    
+    
+}
+input{
+    box-sizing: content-box;
+    width: 25rem;
+}   
+#btn{
+    color:cadetblue;
+    font-style: oblique;
+}

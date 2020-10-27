@@ -16,14 +16,21 @@ input{
    
 }
 #na{
-    background-color: brown;
+    
     font-size: 20px;
     font-style: italic;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-left: 15rem;
     
 }
-#na:hover{
-   background-color: lawngreen;
+
+#hme{
+    transition: transform.2s;
+}
+#hme:hover{
+ 
+ transform: scale(1.5);
+ 
 }
 #inp:hover{
     width: 75%;
