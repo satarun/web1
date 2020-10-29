@@ -1,0 +1,128 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "name": "sri",
+      "last": "sai",
+      "user": "saisri",
+      "password": 12345678,
+      "cpassword": 12345678,
+      "date": "  23-03-1989"
+    },
+    {
+      "name": "saam",
+      "last": "ssm",
+      "user": "smi",
+      "password": "smio124",
+      "cpassword": "smi1234",
+      "date": "2015-05-14",
+      "id": 2
+    },
+    {
+      "name": "ent",
+      "last": "doctor",
+      "user": "doctorE",
+      "password": "doctor1",
+      "cpassword": "doctor1",
+      "date": "2020-09-29",
+      "id": 3
+    },
+    {
+      "name": "ment",
+      "last": "mint",
+      "user": "mentmint",
+      "password": "mint@143",
+      "cpassword": "mint@143",
+      "date": "2020-10-06",
+      "id": 4
+    },
+    {
+      "name": "hello",
+      "last": "hello1",
+      "user": "hell",
+      "password": "hell123",
+      "cpassword": "hell3",
+      "date": "2009-06-18",
+      "id": 5
+    },
+    {
+      "name": "hell",
+      "last": "hellm",
+      "user": "hell3",
+      "password": "hell2",
+      "cpassword": "hell2",
+      "date": "2020-09-29",
+      "id": 6
+    },
+    {
+      "name": "s",
+      "last": "s",
+      "user": "ss",
+      "password": "s",
+      "cpassword": "s",
+      "date": "2020-10-01",
+      "id": 7
+    },
+    {
+      "name": "wlkarekl",
+      "last": "r;kk",
+      "user": ";w;ren",
+      "password": "sern;lkn",
+      "cpassword": "krkn",
+      "date": "2020-10-03",
+      "id": 8
+    },
+    {
+      "name": "sj",
+      "last": "JDSJD",
+      "user": "wrjt;j",
+      "password": "kres;jt;'",
+      "cpassword": "west';rj",
+      "date": "2020-10-03",
+      "id": 9
+    },
+    {
+      "name": "Hell",
+      "last": "Hello",
+      "user": "Hello",
+      "password": "Helliun",
+      "cpassword": "Hellium",
+      "date": "2020-10-11",
+      "id": 10
+    },
+    {
+      "name": "jfsljkbLJHL",
+      "last": "ehkbkb",
+      "user": "besjgb",
+      "password": "hi",
+      "cpassword": "hi",
+      "date": "2020-10-13",
+      "id": 11
+    },
+    {
+      "name": "reh",
+      "last": "reh",
+      "user": "hello",
+      "password": "reh",
+      "cpassword": "reh",
+      "date": "2020-10-17",
+      "id": 12
+    },
+    {
+      "name": "sbaf",
+      "last": "brib",
+      "user": "hello",
+      "password": "hiq",
+      "cpassword": "hiq",
+      "date": "2020-09-28",
+      "id": 13
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
