@@ -12,5 +12,9 @@ public signUp(data):Observable<any>{
 
    return this.http.post("http://localhost:3000/signup",data);
 }
+public lgnp(data):Observable<any>{
+
+  return this.http.post("http://localhost:3000/login",data);
+}
   
 }

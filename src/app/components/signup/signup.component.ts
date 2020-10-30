@@ -12,11 +12,11 @@ signup:FormGroup;
 submitted=false;
   constructor(private fb:FormBuilder,private service : WebService) {
     this.signup=this.fb.group({
-      name:["",[Validators.required,Validators.minLength(10)]],
-      last:["",[Validators.required,Validators.minLength(10)]],
-      user:["",[Validators.required,Validators.minLength(10)]],
-      password:["",[Validators.required,Validators.minLength(10)]],
-      cpassword:["",[Validators.required,Validators.minLength(10)]],
+      name:["",[Validators.required,Validators.minLength(3)]],
+      last:["",[Validators.required,Validators.minLength(3)]],
+      user:["",[Validators.required,Validators.minLength(3)]],
+      password:["",[Validators.required,Validators.minLength(3)]],
+      cpassword:["",[Validators.required,Validators.minLength(3)]],
       date:["",Validators.required]
     })
   }
@@ -27,13 +27,12 @@ submitted=false;
   }
   submit(){
     this.submitted=true;
-    if(this.signup.invalid)
-    {
-        if((this.signup.value["password"])!=(this.signup.value["cpassword"])){
-          alert("Must Match Password and confirm Password");
-        }
-     
-        //alert ("fill the details");
+    if(this.signup.invalid){
+        alert ("fill the details");
+    }
+    else if((this.signup.value["password"])!=(this.signup.value["cpassword"])){
+      debugger;
+      alert("Must Match Password and confirm Password");
     }
     else{
       debugger;

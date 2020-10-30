@@ -5,4 +5,6 @@ export class User {
     password:string;
     cpassword:string;
     date:Date;
+    luser:string;
+    lpassword:string
 }

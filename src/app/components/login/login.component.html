@@ -1,9 +1,24 @@
 <div class='container'>
-<form [formGroup]="lgn" >
-    <div class="form-group">
-         <label>User Name:</label><input type="text" class="form-control" formControlName="luser">
-         <label>Password:</label><input type="password" class="form-control" formControlName="lpassword"><br>
+<form [formGroup]="lgn" (ngSubmit)="logn()" novalidate >
+    <div class="form-group" >
+         <label>User Name:</label><input type="text" class="form-control"
+         formControlName="luser" required [ngClass]="{ 'is-invalid': submitted && f.luser.errors }">
+         <div *ngIf="submitted && f.luser.errors" class="invalid-feedback">
+            <div *ngIf="f.luser.errors.required">
+                Required Login Name
+            </div>
+        </div>
+        </div>
+        <div class="form-group">
+         <label>Password:</label><input type="password" class="form-control" formControlName="lpassword" required
+          [ngClass]="{ 'is-invalid': submitted && f.lpassword.errors }"><br>
+          <div *ngIf="submitted && f.lpassword.errors" class="invalid-feedback">
+            <div *ngIf="f.lpassword.errors.required">
+                Required Password
+            </div>
+        </div></div>
          <button type="submit" id="btn"class="btn btn-outline-primary">Submit</button>
-    </div>
+         <button type="reset"  class="btn btn-outline-danger"(click)="reset()">Reset</button>
+    
 </form>
 </div>
